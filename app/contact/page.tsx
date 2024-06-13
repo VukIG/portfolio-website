@@ -1,27 +1,27 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Mail, Instagram, Facebook } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Instagram size={20} />,
+		href: "",
+		label: "Instagram",
+		handle: "@kamicpp",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "sigmatio@gmail.com",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
+		icon: <Facebook size={20} />,
+		href: "",
+		label: "Facebook",
+		handle: "MOLY.",
 	},
 ];
 
@@ -29,7 +29,11 @@ export default function Example() {
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
-			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
+			<div className="absolute left-1/2 translate-x-[-50%] top-[12%]
+			 bg-black-900 p-6 rounded-md">
+				<h1 className="text-4xl">Interested in working with us? </h1>
+			</div>
+			<div className="container mt-20 flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (
 						<Card>

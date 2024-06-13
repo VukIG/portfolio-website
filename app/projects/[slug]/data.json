@@ -1,0 +1,63 @@
+[
+    {
+      "slug": "project-one",
+      "date": "2023-06-01",
+      "title": "Project One",
+      "description": "An innovative project that leverages cutting-edge technology."
+    },
+    {
+      "slug": "project-two",
+      "date": "2023-06-15",
+      "title": "Project Two",
+      "description": "A comprehensive solution for modern problems."
+    },
+    {
+      "slug": "project-three",
+      "date": "2023-07-01",
+      "title": "Project Three",
+      "description": "A revolutionary approach to traditional methods."
+    },
+    {
+      "slug": "project-four",
+      "date": "2023-07-15",
+      "title": "Project Four",
+      "description": "An efficient and scalable project for the future."
+    },
+    {
+      "slug": "project-five",
+      "date": "2023-08-01",
+      "title": "Project Five",
+      "description": "A sustainable project aimed at improving the environment."
+    },
+    {
+      "slug": "project-six",
+      "date": "2023-08-15",
+      "title": "Project Six",
+      "description": "A community-driven initiative to foster collaboration."
+    },
+    {
+      "slug": "project-seven",
+      "date": "2023-09-01",
+      "title": "Project Seven",
+      "description": "An innovative tool to enhance productivity."
+    },
+    {
+      "slug": "project-eight",
+      "date": "2023-09-15",
+      "title": "Project Eight",
+      "description": "A creative project that combines art and technology."
+    },
+    {
+      "slug": "project-nine",
+      "date": "2023-10-01",
+      "title": "Project Nine",
+      "description": "A project designed to improve user experience."
+    },
+    {
+      "slug": "project-ten",
+      "date": "2023-10-15",
+      "title": "Project Ten",
+      "description": "An ambitious project targeting global markets."
+    }
+  ]
+  

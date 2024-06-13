@@ -1,11 +1,7 @@
-import Link from "next/link";
 import React from "react";
 import { Navigation } from "../components/nav";
-import { Card } from "../components/card";
-import { Article } from "./article";
-import { Eye } from "lucide-react";
 import Footer from "./footer";
-import ArticleCard from "../components/articleCard"
+import ArticleCard from "../components/ArticleCard"
 import Image from "next/image";
 
 export const revalidate = 60;

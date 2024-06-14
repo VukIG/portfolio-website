@@ -7,9 +7,10 @@ type Props = {
   title: string,
   description: string,
   price: string,
+  customerName: string,
 }
 
-export default function articleCard({title, description, price}: Props) {
+export default function articleCard({title, description, price, customerName}: Props) {
   return (
     <Card>
             <Link href={`/projects/1`}>
@@ -35,7 +36,7 @@ export default function articleCard({title, description, price}: Props) {
                 </p>
                 <div className=" md:bottom-8">
                   <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block">
-                    aa <span aria-hidden="true">&rarr;</span>
+                  <span aria-hidden="true">&rarr;</span> {customerName} 
                   </p>
                 </div>
               </article>
